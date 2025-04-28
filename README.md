@@ -5,10 +5,11 @@ A Breakout Board for the CH341a USB UART, I2C and SPI Device, used for
 programming SPI Flash Storage or I2C EEPROM, but with USB-C Connector
 rather than the USB-A Male of the generic `Black Edition` Board.
 
-## Gallery
-![CAD](/Images/PCB_CAD.pnf?raw=true)  
-![Front of Board](/Images/PCB_Front.png?raw=true)  
-![Rear of Board](/Images/PCB_Back.png?raw=true)  
+<div style="display: flex; align-items: center; gap: 10px;">
+  <img src="/Images/PCB_CAD.png" alt="CAD" width="800"><br>
+  <img src="/Images/PCB_Front.png" alt="Front" width="400">
+  <img src="/Images/PCB_Rear.png" alt="Rear" width="400">
+</div>  
 
 ## Parts List
 ```
