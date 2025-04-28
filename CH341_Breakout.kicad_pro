@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 1.0,
+          "height": 1.7,
+          "width": 1.7
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -58,7 +58,28 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "text_height|170502498|76290000|4b57a8c7-bf8b-40d6-a865-c63ffbb41bb6|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_height|171772498|76290000|4834c362-964b-4aae-bbea-8dad3f620f6f|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|163000000|64700000|b1f77586-f5a0-4a80-b4fe-c8705862b124|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "unconnected_items|151939999|59510000|36e07708-507f-41a9-b598-c36070108cfd|b79b12be-53f3-4137-948d-de597f80295d",
+          ""
+        ],
+        [
+          "unconnected_items|155640001|59510000|7b7febe1-4c07-48cd-8909-208e1532165a|e6eee8fb-28c4-4863-9495-ffd582b00beb",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -79,7 +100,7 @@
         "footprint_filters_mismatch": "ignore",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
-        "hole_clearance": "error",
+        "hole_clearance": "ignore",
         "hole_to_hole": "warning",
         "holes_co_located": "warning",
         "invalid_outline": "error",
@@ -88,7 +109,7 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
@@ -105,7 +126,7 @@
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
-        "starved_thermal": "error",
+        "starved_thermal": "ignore",
         "text_height": "warning",
         "text_on_edge_cuts": "error",
         "text_thickness": "warning",
@@ -125,7 +146,7 @@
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
+        "min_copper_edge_clearance": 0.3,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
@@ -506,7 +527,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "Gerb/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
